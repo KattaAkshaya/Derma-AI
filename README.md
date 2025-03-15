@@ -4,7 +4,7 @@
 
 DermaAI is an *AI-powered skincare recommendation app* that provides personalized skincare advice, weather-based tips, diet recommendations, and home remedies. It also offers *doctor consultation suggestions* and *product recommendations. One of its **unique features* is *skin image analysis using OpenCV*, which helps users assess their skin health by analyzing images.  
 
-*🔗 Live Demo:* [DermaAI](https://dermaai.streamlit.app)  
+*🔗 Live Demo:* [DermaAI](https://derma-ai.streamlit.app/)  
 
 ---
 

@@ -70,6 +70,30 @@ DermaAI is an *AI-powered skincare recommendation app* that provides personalize
 
 ---
 
+## 🚀 Future Enhancements
+
+### 1️⃣ Authentication & User Profiles  
+- Enable user login/signup using **Firebase Authentication/Auth0**  
+- Allow users to save **skin analysis history & personalized routines**  
+
+### 2️⃣ Skincare History & Progress Tracking  
+- Store and track **before-after images** for monitoring skin improvement  
+- AI-driven **trend analysis** for long-term skincare insights  
+
+### 3️⃣ AI Chatbot for Skincare Assistance  
+- 24/7 **AI-powered chatbot** for skincare queries  
+- Provides **personalized product & routine recommendations**  
+
+### 4️⃣ Collaboration with Dermatologists & Skincare Brands  
+- Integrate expert-backed recommendations from **dermatologists**  
+- Partner with **top skincare brands** for trusted product suggestions  
+
+### 5️⃣ Community Forum for Skincare Discussions  
+- Users can **share skincare experiences, ask questions & post reviews**  
+- **Real-time discussions** powered by WebSockets  
+
+These enhancements will make **Skincare Genius** a more **personalized, interactive, and expert-backed skincare assistant.** 🚀
+
 ## 📂 Project Structure
 
 ```bash

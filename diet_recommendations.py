@@ -23,7 +23,7 @@ def get_diet_recommendations(gender, age, skin_type, user_input):
         "concise and clear"
     )
     
-    model = genai.GenerativeModel("models/gemini-1.5-pro-latest")
+    model = genai.GenerativeModel("models/gemini-2.0-flash")
     response = model.generate_content(prompt)
     return response.text if response else "Unable to fetch diet recommendations."
 
@@ -36,3 +36,4 @@ if __name__ == "__main__":
     
     recommendations = get_diet_recommendations(gender, age, skin_type, skin_concerns)
     print(recommendations)
+

@@ -57,9 +57,10 @@ def get_doctor_recommendation(skin_type, skin_concerns, age):
 
         Should I see a dermatologist? If yes, what medical treatments should I consider?
         """
-        model = genai.GenerativeModel("models/gemini-1.5-pro-latest")
+        model = genai.GenerativeModel("models/gemini-2.0-flash")
         response = model.generate_content(prompt)
 
         return response.text if response and hasattr(response, "text") else "Consult a dermatologist for more details."
     except Exception as e:
         return f"AI Error: {str(e)}"
+

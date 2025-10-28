@@ -20,8 +20,9 @@ def get_home_remedies(skin_type, age, gender,user_input):
     """
 
     try:
-        model = genai.GenerativeModel("models/gemini-1.5-pro-latest")
+        model = genai.GenerativeModel("models/gemini-2.0-flash")
         response = model.generate_content(prompt)
         return response.text  # Returns AI-generated text
     except Exception as e:
         return f"Error: {e}"
+

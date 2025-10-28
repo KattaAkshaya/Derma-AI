@@ -18,7 +18,7 @@ def get_ai_recommendations(user_input, skin_type, gender, age):
     """Generate AI-powered skincare advice based on user details."""
     try:
         # Initialize the Gemini model
-        model = genai.GenerativeModel("models/gemini-1.5-pro-latest")  
+        model = genai.GenerativeModel("models/gemini-2.0-flash")  
 
         # Format the input as a single string (prompt)
         prompt = f"Provide skincare advice for a {age}-year-old {gender} with {skin_type} skin type. User query: {user_input}"
@@ -39,3 +39,4 @@ if __name__ == "__main__":
     gender = "female"
     age = 25
     print(get_ai_recommendations(user_input, skin_type, gender, age))
+
